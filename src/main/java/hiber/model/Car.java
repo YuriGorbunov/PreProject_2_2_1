@@ -26,6 +26,7 @@ public class Car {
         this.series = series;
     }
 
+
     public User getUser() {
         return user;
     }
@@ -63,8 +64,6 @@ public class Car {
         return "\nCar{" +
                 "id=" + id +
                 ", model='" + model + '\'' +
-                ", series=" + series +
-                ", user=" + user +
-                '}';
+                ", series=" + series + '}';
     }
 }
